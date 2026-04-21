@@ -45,7 +45,7 @@ To preform analysis on the trip data, I ran queries in SQL comparing the number 
 
 [View the full SQL script here](./sql_queries/data_analysis_v1.sql)
 
-Trend 1: The average length of casual rides are approximately doiuble the average length of annual members' rides.
+Trend 1: Casual riders ride for longer on average than annual members.
 
 Trend 2: Casual riders ride most frequently on weekends and annual riders ride most on weekdays.
 
@@ -60,40 +60,58 @@ I shrank the file size of the dataset by aggregating in SQL, grouping by rider t
 Using Tableau I visualized the trends.
 
 ### Total Rides
+<p align="center">
+<img width="800" alt="Total Rides (2)" src="https://github.com/user-attachments/assets/d5b0a1ef-e057-4b5c-b6e9-c7cb942083a7" />
 
-<img width="620" height="406" alt="Total Rides (1)" src="https://github.com/user-attachments/assets/4cb40aba-d828-4b1c-bbb7-b3151855676d" />
 
-<img width="674" height="1238" alt="Ride Lengths (mins)" src="https://github.com/user-attachments/assets/56407a43-4543-4406-8dc0-6581dc524871" />
+* Majority of people using Cyclistic are members
+* 35.6% of all riders are casual
+* 64.4% of all riders are members
+* 3,739,226 total riders
+
+<p align="center">
+<img width="800" alt="Ride Lengths (mins) (1)" src="https://github.com/user-attachments/assets/0d6412bf-6cb1-4231-9d1a-63cf457097ac" />
+
+
+* Casual riders go for longer rides than members on average
+* The average length of casual rides are approximately double the average length of annual members' rides
 
 ### Weekly Trends
+<p align="center">
+<img width="800" alt="Weekly Totals" src="https://github.com/user-attachments/assets/6b2b767b-7991-4152-b3eb-a6bce2d05c1a" />
 
-<img width="1560" height="1182" alt="Weekly Totals" src="https://github.com/user-attachments/assets/6b2b767b-7991-4152-b3eb-a6bce2d05c1a" />
 
-<img width="1530" height="1182" alt="Weekly Lengths (mins)" src="https://github.com/user-attachments/assets/71b5de00-63eb-4927-b7e2-05fa1139c7d6" />
+* Casual riders ride more frequently on the weekends.
+* Members ride more frequently on weekdays.
+
+<p align="center">
+<img width="800" alt="Weekly Lengths (mins)" src="https://github.com/user-attachments/assets/71b5de00-63eb-4927-b7e2-05fa1139c7d6" />
+
+
+* On average, causal rides go for longer rides on the weekends.
+* Average length of bike rides are consistent for members across days of the week.
+  
 
 ### Monthly Trends
 
-<img width="1370" height="1182" alt="Monthly Lengths" src="https://github.com/user-attachments/assets/d53da843-52b2-4162-ba18-865f0dd04b0a" />
-
-<img width="1876" height="1182" alt="Monthly Totals" src="https://github.com/user-attachments/assets/c7cc18fe-42ee-4b4e-b963-28140e044505" />
-
+<p align="center">
+<img width="800" alt="Monthly Lengths" src="https://github.com/user-attachments/assets/d53da843-52b2-4162-ba18-865f0dd04b0a" />
 
 
+* Both members and casual riders ride more frequently in the months May through October than November through April.
 
-Trend 1: The average length of casual rides are approximately doiuble the average length of annual members' rides.
-
-Trend 2: Casual riders ride most frequently on weekends and annual riders ride most on weekdays.
-
-Trend 3: Casual riders go for longer rides on the weekends. Annual members' average ride lengths are consistent throughout the week.
-
-Trend 4: Both casual and annual riders ride more in the summer.
-
-Trend 5: Casual riders go for longer rides in the summer. Annual members' average ride lengths are consistent throughout the year.
+<p align="center">
+<img width="800" alt="Monthly Totals" src="https://github.com/user-attachments/assets/c7cc18fe-42ee-4b4e-b963-28140e044505" />
 
 
-Dashboard Link: [Link to your Tableau Public profile](https://public.tableau.com/shared/2Y3SPY3MG?:display_count=n&:origin=viz_share_link)
+* Casual riders go for longer bike rides on average in the summer months.
+* Members' average length of bike ride is more consistent throughout the year.
 
-<div class='tableauPlaceholder' id='viz1776792712800' style='position: relative'><noscript><a href='#'><img alt='Cyclistic Dashboard ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Cy&#47;CyclisticBikeShareDashboard_17767915102020&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='CyclisticBikeShareDashboard_17767915102020&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Cy&#47;CyclisticBikeShareDashboard_17767915102020&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>  
+
+
+Dashboard Link: [Link](https://public.tableau.com/shared/2Y3SPY3MG?:display_count=n&:origin=viz_share_link)
+
+<div class='tableauPlaceholder' id='viz1776798579085' style='position: relative'><noscript><a href='#'><img alt='Cyclistic Dashboard ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Cy&#47;CyclisticBikeShareDashboard_17767915102020&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='CyclisticBikeShareDashboard_17767915102020&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Cy&#47;CyclisticBikeShareDashboard_17767915102020&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>            
 
 
 ## 6. Reccomendations (Act)
