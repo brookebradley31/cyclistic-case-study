@@ -43,18 +43,25 @@ To prepare the data for analysis, I used **SQL (BigQuery)** to clean and aggrega
 
 To preform analysis on the trip data, I ran queries in SQL comparing the number of rides and average trip length for casual riders vs. members in total, by day of the week, and by month.
 
-Trend 1: Casual riders average ride length is approximately doiuble the length of annual members' rides.
+Trend 1: The average length of casual rides are approximately doiuble the average length of annual members' rides.
 
-Trend 2: Casual riders ride most on weekends and annual riders ride most on weekdays.
+Trend 2: Casual riders ride most frequently on weekends and annual riders ride most on weekdays.
 
-Trend 3: Casual riders ride significatly most in the summer than the winter. Annual riders ride more consistantly throughout the year.
+Trend 3: Casual riders go for longer rides on the weekends. Annual members' average ride lengths are consistent throughout the week.
+
+Trend 4: Both casual and annual riders ride more in the summer.
+
+Trend 5: Casual riders go for longer rides in the summer. Annual members' average ride lengths are consistent throughout the year.
+
+-- edit
 
 [View the full SQL script here](./sql_queries/data_analysis_v1.sql)
 
 ## 5. Data Visualization (Share)
 
-V. Share
-This is where your visualizations go.
+I optimized the dataset by aggregating in BigQuery, grouping by rider type and date to maintain analytical accuracy uploading the data to Tableau Public.
+
+[View the full SQL script here](./sql_queries/data_analysis_v1.sql)
 
 Dashboard Link: [Link to your Tableau Public profile]
 
