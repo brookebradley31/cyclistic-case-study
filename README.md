@@ -99,9 +99,11 @@ Using Tableau I visualized the trends.
 
 
 * Both members and casual riders ride more frequently in the months May through October than November through April.
+* Casual riders show a sharper decline August through December than members.
 
 <p align="center">
-<img width="800" alt="Monthly Totals" src="https://github.com/user-attachments/assets/c7cc18fe-42ee-4b4e-b963-28140e044505" />
+<img width="800" alt="Monthly Totals (1)" src="https://github.com/user-attachments/assets/8ecc15f9-01e8-46d0-acca-9a5df620b627" />
+
 
 
 * Casual riders go for longer bike rides on average in the summer months.
@@ -113,34 +115,38 @@ Dashboard Link: [Link](https://public.tableau.com/shared/2Y3SPY3MG?:display_coun
 
 <div class='tableauPlaceholder' id='viz1776798579085' style='position: relative'><noscript><a href='#'><img alt='Cyclistic Dashboard ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Cy&#47;CyclisticBikeShareDashboard_17767915102020&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='CyclisticBikeShareDashboard_17767915102020&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Cy&#47;CyclisticBikeShareDashboard_17767915102020&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>            
 
+### Interpretation
+
+**Casual** riders ride most on **weekends** and go for **longer rides**. From this we can infer casual riders ride for leisure or during free time.
+Members ride most on **weekdays** and **consistently** throughout the year. We can conclude members ride routinely for reasons such as commuting or other necesities.
+
 
 ## 6. Reccomendations (Act)
 
+From the analysis above, we can design marketing strategies to convert casual riders to members.
+
+**Recommendation 1: Weekend Memberships**
+
+*The Insight:* Data analysis reveals that casual riders primarily use the service on the weekends, with average trip durations nearly 82% longer than those of annual members (21.79 vs 11.95 minutes).
+
+*The Strategy:* Introduce a targeted "Weekend Pass" or a Friday–Sunday membership option.
+
+*The Goal:* By offering a lower price point specifically for weekend use, Cyclistic can capture high-volume weekend users who currently don't find a full annual membership worth the price.
+
+**Recommendation 2: Summer Conversion Campaigns**
+
+*The Insight:* Number of rides peak significantly across both customers during the summer months, but casual users show a sharper decline as seasons change from summer until winter.
+
+*The Strategy:* Launch promotions in the summer when demand is the highest to convert users to annual memberships. These could include discounted annual memberships or a few free months incentive.
+
+*The Goal:* Secure annual revenue during the period of highest user engagement and reduce the seasonal attrition seen in casual rider data.
+
+**Recommendation 3: Strategic Infrastructure & Commuter Expansion**
+
+*The Insight:* Annual members demonstrate utilitarian usage evidenced by trips that are consistent, shorter, and distributed throughout the week, suggesting they use the service for routine commuting rather than lesuire.
+
+*The Strategy:* Prioritize station expansion near major transit hubs and commercial business districts.
+
+*The Goal:* By optimizing station density throughout the city, Cyclistic becomes a more viable method of transportation, allowing casual riders to convert to memberships for their daily commute.
 
 
-VI. Act
-What should the company do?
-
-Recommendation 1
-
-Recommendation 2
-
-Recommendation 3
-
-4. How to Run This Project
-Tell the reader how to see your work.
-
-The raw data can be found in the /data folder.
-
-The cleaning process is documented in cleaning_script.sql.
-
-The final report is available as a PDF in this repository.
-
-Helpful Formatting Tips:
-To create a code block: Wrap your code in triple backticks so it looks professional:
-
-SQL
-SELECT * FROM `project.dataset.table` WHERE length > 60;
-To check your work: Click the "Preview" tab at the top of the GitHub editor to see how it looks before you save it.
-
-Which tool did you choose for your analysis—SQL, R, or are you doing it all in a spreadsheet?
