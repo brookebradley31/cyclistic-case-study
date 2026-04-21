@@ -49,7 +49,7 @@ Trend 1: Casual riders ride for longer on average than annual members.
 
 Trend 2: Casual riders ride most frequently on weekends and annual riders ride most on weekdays.
 
-Trend 3: Both casual and annual riders ride more in the summer.
+Trend 3: Both casual and annual riders ride more in the summer, but casual riders decline more steeply after August.
 
 ## 5. Data Visualization (Share)
 
@@ -73,8 +73,8 @@ Using Tableau I visualized the trends.
 <img width="800" alt="Ride Lengths (mins) (1)" src="https://github.com/user-attachments/assets/0d6412bf-6cb1-4231-9d1a-63cf457097ac" />
 
 
-* Casual riders go for longer rides than members on average
-* The average length of casual rides are approximately double the average length of annual members' rides
+* Casual riders go for longer rides than members on average (21.79 mins vs. 11.95 mins).
+* The average ride length of casual riders is around 82% longer than the average ride length of annual members'.
 
 ### Weekly Trends
 <p align="center">
@@ -111,9 +111,11 @@ Using Tableau I visualized the trends.
 
 
 
-Dashboard Link: [Link](https://public.tableau.com/shared/2Y3SPY3MG?:display_count=n&:origin=viz_share_link)
+Dashboard Link: [Link](https://public.tableau.com/views/CyclisticBikeShareDashboard_17767915102020/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-<div class='tableauPlaceholder' id='viz1776798579085' style='position: relative'><noscript><a href='#'><img alt='Cyclistic Dashboard ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Cy&#47;CyclisticBikeShareDashboard_17767915102020&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='CyclisticBikeShareDashboard_17767915102020&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Cy&#47;CyclisticBikeShareDashboard_17767915102020&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>            
+<p align="center">
+<img width="1998" height="1598" alt="Cyclistic Dashboard" src="https://github.com/user-attachments/assets/99df7076-6887-4dff-8006-ded2e3379833" />
+
 
 ### Interpretation
 
@@ -127,7 +129,7 @@ From the analysis above, we can design marketing strategies to convert casual ri
 
 **Recommendation 1: Weekend Memberships**
 
-*The Insight:* Data analysis reveals that casual riders primarily use the service on the weekends, with average trip durations nearly 82% longer than those of annual members (21.79 vs 11.95 minutes).
+*The Insight:* Data analysis reveals that casual riders primarily use the service on the weekends, with average trip durations around 82% longer than those of annual members (21.79 vs 11.95 minutes).
 
 *The Strategy:* Introduce a targeted "Weekend Pass" or a Friday–Sunday membership option.
 
