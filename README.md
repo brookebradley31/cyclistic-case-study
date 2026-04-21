@@ -43,11 +43,13 @@ To prepare the data for analysis, I used **SQL (BigQuery)** to clean and aggrega
 
 To preform analysis on the trip data, I ran queries in SQL comparing the number of rides and average trip length for casual riders vs. members in total, by day of the week, and by month.
 
+Trend 1: Casual riders average ride length is approximately doiuble the length of annual members' rides.
 
-Trend 1: Casual riders are 50% more active on weekends.
+Trend 2: Casual riders ride most on weekends and annual riders ride most on weekdays.
 
-Trend 2: Annual members have shorter average ride times.
+Trend 3: Casual riders ride significatly most in the summer than the winter. Annual riders ride more consistantly throughout the year.
 
+[View the full SQL script here](./sql_queries/data_analysis_v1.sql)
 
 ## 5. Data Visualization (Share)
 
