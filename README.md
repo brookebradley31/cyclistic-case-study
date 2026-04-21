@@ -28,15 +28,16 @@ This public data has been made available by Motivate International Inc. under th
 
 ## 3. Data Cleaning and Manipulation (Process)
 
-Tools Used: 
-* Data cleaning and manipulation: SQL
-* Data visualization: Tableau // ADD LINK
+To prepare the data for analysis, I used **SQL (BigQuery)** to clean and aggregate 12 months of data into a single table. My processing steps included:
 
-III. Process
-Explain your cleaning steps. This is a great place to show off.
+* **Data Aggregation:** Combined 12 individual CSV files into one table using `UNION ALL`.
+* **Data Transformation:** Created new columns for `ride_length` (calculated in minutes), `day_of_week`, and `month` to analyze trends across different time periods.
+* **Data Cleaning:**
+    * Removed records with missing `start_station_name` or `end_station_name`
+    * Filtered out trips where `started_at` was greater than `ended_at`
+* **Validation:** Performed a duplicate check on the unique `ride_id` to ensure data integrity.
 
-Note: "I used SQL to remove 1,500 duplicate entries and filtered out trips shorter than 60 seconds."
-
+[View the full SQL script here]()
 
 ## 4. Summary of Analysis (Analyze)
 
