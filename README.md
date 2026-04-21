@@ -150,4 +150,14 @@ From the analysis above, we can design marketing strategies to convert casual ri
 
 *The Goal:* By optimizing station density throughout the city, Cyclistic becomes a more viable method of transportation, allowing casual riders to convert to memberships for their daily commute.
 
+## Conclusion
 
+Overall, the analysis of the past 12 months of Cyclistic trip data successfully identified clear behavioral trends: while annual members utilize Cyclistic as a consistent commuter tool, casual riders use the service for leisure, riding longer on average and primarily on weekends.
+
+These insights allow Cyclistic to design marketing strategies to convert casual riders to annual members. 
+
+The data-driven recommendations I suggest for Cyclistic are a weekend memberships to capture the weekend rider demographic, summer promotions to secure year-round customers, and expanding bike stations to allow for more casual members to use the bikes for commuting.
+
+This project served as the capstone of my Google Data Analytics Certificate, refining my ability to clean and organize data for analysis, complete analysis and calculations using SQL, and 
+
+handle complex data cleaning, rigorous statistical validation, and the creation of executive-level visualizations that translate technical findings into clear stakeholder recommendations.
