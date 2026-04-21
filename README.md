@@ -4,22 +4,27 @@
 
 ## Introduction
 
-This case study is the capstone project for the Google Data Analytics Professional Certificate. I applied the analysis process taught in the course to analyze data on Cyclistic, a fictional bike-share company.
+This case study is the capstone project for the Google Data Analytics Professional Certificate. I applied the analysis process taught in the course to analyze data on Cyclistic, a fictional bike-share company in Chicago.
+
+Cyclistic has two types of consumers: casual riders and members. Casual riders are customers who purchase single-rides or day-passes, and members are customers who purchase annual memberships. The financial analysts have determined that annual members are more profitable than casual riders. The director of marketing believes converting casual riders to members will most efficiently maximize the number of annual members, and therefore maximize profit.
 
 ## 1. Executive Summary (Ask)
 
-As a junior data analyst on the marketing analyst team at Cyclistic, a bike-share company in Chicago, my goal is to analyze historical trip data to understand how annual members and casual riders use the service differently. By identifying trends, I provide evidence-based recommendations to convert casual riders into long-term members, to maximize company growth.
+As a junior data analyst on the marketing analyst team at Cyclistic, my goal is to analyze historical trip data to understand how annual members and casual riders use the service differently. By identifying trends, I provide evidence-based recommendations to convert casual riders into long-term members, to maximize company growth.
 
-Key Stakeholders: [List names/titles like Lily Moreno, Director of Marketing]
+Key Stakeholders: 
+
+* Lily Moreno: Director of Marketing and my manager. She will design marketing campaigns based on the insights we find.
+* Cyclistic executive team: The team members who will decide whether to approve the final recommended marketing program.
 
 ## 2. Data Sources (Prepare)
 
 Data Source: [divvy-tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html)
 This public data has been made available by Motivate International Inc. under this [license.](https://divvybikes.com/data-license-agreement)
 
-Integrity: How did you verify the data's credibility (ROCCC)?
-
-Privacy: Mention any anonymization (e.g., "User IDs were used instead of names").
+* Past 12 months of historical trip data from Cyclistic
+* Around 3.7 million rows of data (trips) across 12 CSV files
+* Original and current data reflects accurate recent rider behavior 
 
 ## 3. Data Cleaning and Manipulation (Process)
 
