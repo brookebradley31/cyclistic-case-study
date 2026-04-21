@@ -37,12 +37,12 @@ To prepare the data for analysis, I used **SQL (BigQuery)** to clean and aggrega
     * Filtered out trips where `started_at` was greater than `ended_at`
 * **Validation:** Performed a duplicate check on the unique `ride_id` to ensure data integrity.
 
-[View the full SQL script here]()
+[View the full SQL script here](./sql_queries/data_cleaning_v1.sql)
 
 ## 4. Summary of Analysis (Analyze)
 
-IV. Analyze
-What trends did you find? Use bullet points for readability:
+To preform analysis on the trip data, I ran queries in SQL comparing the number of rides and average trip length for casual riders vs. members in total, by day of the week, and by month.
+
 
 Trend 1: Casual riders are 50% more active on weekends.
 
