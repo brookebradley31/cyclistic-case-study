@@ -59,13 +59,13 @@ Trend 5: Casual riders go for longer rides in the summer. Annual members' averag
 
 ## 5. Data Visualization (Share)
 
-I optimized the dataset by aggregating in BigQuery, grouping by rider type and date to maintain analytical accuracy uploading the data to Tableau Public.
+I shrank the file size of the dataset by aggregating in BigQuery, grouping by rider type and date to maintain analytical accuracy uploading the data to Tableau Public.
 
-[View the full SQL script here](./sql_queries/data_analysis_v1.sql)
+[View the full SQL script here](./sql_queries/data_aggregation_v1.sql)
 
-Dashboard Link: [Link to your Tableau Public profile]
+Dashboard Link: [Link to your Tableau Public profile](https://public.tableau.com/shared/2Y3SPY3MG?:display_count=n&:origin=viz_share_link)
 
-Tip: You can take a screenshot of your best chart and drag/drop it directly into the GitHub editor to embed it here!
+<div class='tableauPlaceholder' id='viz1776791929924' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;2Y&#47;2Y3SPY3MG&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;2Y3SPY3MG' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;2Y&#47;2Y3SPY3MG&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>             
 
 
 ## 6. Reccomendations (Act)
