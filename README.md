@@ -60,7 +60,7 @@ Using Tableau, I visualized the trends.
 
 ### Total Rides
 <p align="center">
-<img width="800" alt="Total Rides (2)" src="https://github.com/user-attachments/assets/d5b0a1ef-e057-4b5c-b6e9-c7cb942083a7" />
+<img width="800" alt="Total Rides (3)" src="https://github.com/user-attachments/assets/59ef52aa-4ccb-4fb5-b982-6df553bdd281" />
 
 
 * The majority of people using Cyclistic are members
@@ -69,7 +69,7 @@ Using Tableau, I visualized the trends.
 * 3,739,226 total riders
 
 <p align="center">
-<img width="800" alt="Ride Lengths (mins) (1)" src="https://github.com/user-attachments/assets/0d6412bf-6cb1-4231-9d1a-63cf457097ac" />
+<img width="800" alt="Ride Lengths (mins) (2)" src="https://github.com/user-attachments/assets/95a814c9-c19f-432d-abce-31ee37703d9b" />
 
 
 * Casual riders go for longer rides than members on average (21.79 mins vs. 11.95 mins).
@@ -77,14 +77,14 @@ Using Tableau, I visualized the trends.
 
 ### Weekly Trends
 <p align="center">
-<img width="800" alt="Weekly Totals" src="https://github.com/user-attachments/assets/6b2b767b-7991-4152-b3eb-a6bce2d05c1a" />
+<img width="800" alt="Weekly Totals (1)" src="https://github.com/user-attachments/assets/3ac5d6aa-4361-4da6-95c8-781c8fc9fbe8" />
 
 
 * Casual riders ride more frequently on the weekends.
 * Members ride more frequently on weekdays.
 
 <p align="center">
-<img width="800" alt="Weekly Lengths (mins)" src="https://github.com/user-attachments/assets/71b5de00-63eb-4927-b7e2-05fa1139c7d6" />
+<img width="800" alt="Weekly Lengths (mins) (1)" src="https://github.com/user-attachments/assets/ee87f5a7-7b4a-4d5a-9637-cfe5ad6a5b26" />
 
 
 * On average, casual riders go for longer rides on the weekends.
@@ -94,14 +94,15 @@ Using Tableau, I visualized the trends.
 ### Monthly Trends
 
 <p align="center">
-<img width="800" alt="Monthly Lengths" src="https://github.com/user-attachments/assets/d53da843-52b2-4162-ba18-865f0dd04b0a" />
+<img width="800" alt="Monthly Totals (2)" src="https://github.com/user-attachments/assets/9ee02dd3-6a84-4e77-94d1-6444938fdede" />
+
 
 
 * Both members and casual riders ride more frequently in the months May through October than in November through April.
 * Casual riders show a sharper decline from August through December than members.
 
 <p align="center">
-<img width="800" alt="Monthly Totals (1)" src="https://github.com/user-attachments/assets/8ecc15f9-01e8-46d0-acca-9a5df620b627" />
+<img width="800" alt="Monthly Lengths (1)" src="https://github.com/user-attachments/assets/97b524fc-f4f5-43d4-8622-a6daa9034c2a" />
 
 
 
@@ -113,7 +114,8 @@ Using Tableau, I visualized the trends.
 Dashboard Link: [Link](https://public.tableau.com/views/CyclisticBikeShareDashboard_17767915102020/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 <p align="center">
-<img width="1998" height="1598" alt="Cyclistic Dashboard" src="https://github.com/user-attachments/assets/99df7076-6887-4dff-8006-ded2e3379833" />
+<img width="1998" height="1598" alt="Cyclistic Dashboard (1)" src="https://github.com/user-attachments/assets/11e8ceda-848a-49a1-a723-4248a4aa78ae" />
+
 
 
 ### Interpretation
